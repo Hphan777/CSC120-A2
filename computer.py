@@ -14,7 +14,7 @@ class Computer:
      price: int =0
 
     # How will you set up your constructor?
-
+    # provide the variables necesary to create a computer
     # Remember: in python, all constructors have the same name (__init__)
      def __init__(self, description: str, processor_type: str, hard_drive_capacity: int, memory: int, operating_system: str, year_model: int, price: int):
         self.description = description
@@ -24,7 +24,7 @@ class Computer:
         self.operating_system = operating_system
         self.year_made = year_model
         self.price = price
-
+    # method prints out specific information regarding the computer 
     # What methods will you need?
      def printDetails(self):
          print(self.description)
